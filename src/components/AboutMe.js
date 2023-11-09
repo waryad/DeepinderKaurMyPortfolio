@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
-import Resume from './resume.pdf';
+
 
 function AboutMe() {
   return (

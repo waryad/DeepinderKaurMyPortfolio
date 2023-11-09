@@ -43,7 +43,7 @@ function Home() {
         <img
           className="profile-pic"
           src="../../image/Mypic.jpg" // Update the path to your resized image
-          alt="Your Image"
+          alt="Your"
         />
       </div>
     </section>

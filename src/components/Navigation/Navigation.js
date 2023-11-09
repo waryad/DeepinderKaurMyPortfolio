@@ -7,7 +7,7 @@ function Navigation() {
   return (
     <nav>
       <div className="navbar-image">
-        <img src="../../image/Mypic7.jpeg" alt="Your Image" />
+        <img src="../../image/Mypic7.jpeg" alt="Your " />
       </div>
       <div className="navbar-links">
         <Link to="/">Home</Link>

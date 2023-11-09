@@ -1,6 +1,7 @@
 // App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
@@ -36,8 +37,9 @@ function App() {
         <Footer />
       </div>
     </Router>
-    
-  );
+
+);
 }
+
 
 export default App;
