@@ -1,0 +1,78 @@
+/* Home.css */
+
+#home {
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    color: white;
+    padding: 20px;
+    display: flex;
+  }
+  
+  .left-banner {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .custom-text-size {
+    font-size: 2rem;
+  }
+  
+  .text-4xl {
+    font-size: 2.5rem;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .social-link {
+    padding: 10px 15px;
+    background-color: #ff014f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .social-link:hover {
+    background-color: #ff3d80;
+  }
+  
+  .text-xl {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 80px;
+  }
+  .profile-pic {
+    max-width: 1000%;
+    height: 500px;
+    border-radius: 50;
+    box-shadow: none;
+    margin-left: 200px;
+  }  
+/* Responsive styles for screens up to 768px wide */
+@media (max-width: 768px) {
+  #home {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .left-banner {
+      padding-right: 0;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .profile-pic {
+      margin-left: 0;
+  }
+
+  .social-links {
+      margin-top: 10px;
+  }
+
+  .text-xl {
+      margin-top: 20px;
+  }
+}

@@ -1,0 +1,53 @@
+/* Navigation.css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);/* Set the background color to black */
+  }
+  
+  .navbar-image img {
+    width: 100px; /* Adjust the width as needed */
+    border-radius: 5%; /* Makes the image circular */
+    margin-right: 200px; /* Increase the margin to add more space */
+    margin-left: 50px;
+    height: 90px;
+  }
+  
+
+  /* Navigation.css */
+.navbar-links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+   margin-left: 30px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s; /* Add a smooth color transition effect */
+  
+    /* Change color to red when hovering */
+    &:hover {
+      color: red;
+    }
+  
+    /* Change color to red when clicked */
+    &:active {
+      color: red;
+    }
+  }
+  /* Responsive styles for screens up to 768px wide */
+@media (max-width: 768px) {
+  .navbar-links {
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 0;
+  }
+
+  .navbar-image img {
+      margin-right: 0;
+  }
+}

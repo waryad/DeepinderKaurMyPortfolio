@@ -1,0 +1,85 @@
+/* Contact.css */
+
+.contact-section {
+    padding: 80px 0;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    text-align: center;
+    color: #ccd6f6;
+  }
+  
+  h2 {
+    font-size: 300px;
+    color: black;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-bottom: 500px;
+    margin-top: 500px ;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-card {
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .contact-info h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-link {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s, transform 0.3s;
+  }
+  
+  .social-link:hover {
+    color: rgb(192, 243, 247);
+    transform: translateY(-3px);
+  }
+  
+  .social-icon {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  /* Add a media query for smaller screens */
+@media (min-width: 768px) {
+  .contact-container {
+      flex-direction: row; /* Switch back to row for larger screens */
+  }
+
+  .contact-card {
+      width: calc(33.3333% - 20px); /* Adjust the width for three columns with gaps */
+  }
+}

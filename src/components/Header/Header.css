@@ -1,0 +1,27 @@
+/* Header.css */
+.header-content {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('/path-to-your-profile-image.jpg');
+    background-size: cover;
+  }
+  
+  .header-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-links a {
+    text-decoration: none;
+    color: white;
+  }
+  

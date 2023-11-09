@@ -1,0 +1,49 @@
+/* Resume.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    color: white;
+  }
+  
+  #resume {
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  .resume-download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .resume-download h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .resume-download a {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 15px 40px;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .resume-download a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+  /* Add a media query for smaller screens */
+@media (max-width: 768px) {
+  .resume-download a {
+      width: 100%; /* Occupy full width on smaller screens */
+  }
+}
